@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Testing
+.pytest_cache/
+htmlcov/
+.coverage
+
+# Environment (will be provided via docker-compose)
+.env
+.env.local
+
+# Documentation
+*.md
+!README.md
+
+# Scripts (not needed in container)
+scripts/
+
+# Git
+.git/
+.gitignore
+
+# Temporary files
+*.swp
+*.swo
+*~
+.DS_Store
