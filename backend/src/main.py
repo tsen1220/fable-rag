@@ -79,11 +79,9 @@ async def startup_event():
     print("🚀 Initializing Fable RAG System...")
 
     # Initialize embedding model
-    print(f"Loading embedding model: {EMBEDDING_MODEL_NAME}")
     embedding_model = EmbeddingModel()
 
     # Connect to Qdrant
-    print(f"Connecting to Qdrant: {QDRANT_HOST}:{QDRANT_PORT}")
     qdrant_manager = QdrantManager()
 
     # Check if collection exists

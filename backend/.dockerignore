@@ -23,10 +23,6 @@ env/
 htmlcov/
 .coverage
 
-# Environment (will be provided via docker-compose)
-.env
-.env.local
-
 # Documentation
 *.md
 !README.md

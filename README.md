@@ -86,7 +86,6 @@ uv run --directory backend uvicorn src.main:app --reload --host 0.0.0.0 --port 8
 Visit the following URLs to view API documentation:
 
 - Swagger UI: http://localhost:8000/docs
-- ReDoc: http://localhost:8000/redoc
 
 Or test using curl:
 
