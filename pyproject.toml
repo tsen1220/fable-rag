@@ -4,6 +4,7 @@ version = "1.0.0"
 description = "Fable Story Retrieval-Augmented Generation System"
 readme = "README.md"
 requires-python = ">=3.12"
+license = {text = "MIT"}
 dependencies = [
     # Core
     "fastapi==0.115.5",
